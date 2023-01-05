@@ -1,3 +1,5 @@
+%global octpkg automatic-differentiation
+
 Summary:	Automatic-Differentiation for Octave
 Name:		octave-automatic-differentiation
 Version:	1.0.0
@@ -20,7 +22,7 @@ Automatic-Differentiation for Octave.
 
 %files
 %license COPYING
-%doc NEWS
+%doc README.md
 %dir %{octpkgdir}
 %{octpkgdir}/*
 
