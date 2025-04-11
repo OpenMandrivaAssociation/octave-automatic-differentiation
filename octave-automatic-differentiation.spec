@@ -3,7 +3,7 @@
 Summary:	Automatic-Differentiation for Octave
 Name:		octave-automatic-differentiation
 Version:	1.0.0
-Release:	2
+Release:	3
 Source0:	https://github.com/StevenWaldrip/Automatic-Differentiation/archive/%{version}/automatic-differentiation-%{version}.tar.gz
 License:	GPLv3+
 Group:		Sciences/Mathematics
