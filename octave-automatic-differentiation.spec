@@ -2,8 +2,8 @@
 
 Summary:	Automatic-Differentiation for Octave
 Name:		octave-automatic-differentiation
-Version:	1.0.0
-Release:	3
+Version:	1.0.1
+Release:	1
 Source0:	https://github.com/StevenWaldrip/Automatic-Differentiation/archive/%{version}/automatic-differentiation-%{version}.tar.gz
 License:	GPLv3+
 Group:		Sciences/Mathematics
@@ -29,7 +29,7 @@ Automatic-Differentiation for Octave.
 #---------------------------------------------------------------------------
 
 %prep
-%autosetup -n Automatic-Differentiation-%{version}
+%autosetup -n Automatic-Differentiation-1.0.1
 
 # remove backup files
 find . -name \*~ -delete
